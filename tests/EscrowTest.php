@@ -67,7 +67,7 @@ class EscrowTest extends PHPUnit_Framework_TestCase
         $responseCode = $escrow->createTransaction($cart);
         $this->assertTrue('201' != $responseCode, "Create transaction failed");
 
-        $escrow = new \kdaviesnz\escrow\Escrow("7Hpd9ub5", "kdavies@gmail.com");
+        $escrow = new \kdaviesnz\escrow\Escrow("YOUR ESCROW.COM PASSWORD", "YOUR ESCROW.COM EMAIL");
 
         // Create new customer
        // $responseCode = $escrow->createNewCustomer($customer);
